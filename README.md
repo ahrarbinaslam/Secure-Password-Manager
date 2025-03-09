@@ -25,10 +25,12 @@ Secure Password Manager is a Python-based application that allows users to **sto
 
 ## Installation
 
-### 1. Clone the Repository
+1. Clone the Repository
+
 ```sh
 git clone https://github.com/ahrarbinaslam/Secure-Password-Manager.git
 cd Secure-Password-Manager
+
 
 
 2. Set Up a Virtual Environment
