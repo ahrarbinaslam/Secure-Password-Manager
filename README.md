@@ -1,30 +1,29 @@
-# Secure-Password-Manager
+# Secure Password Manager
 
-Secure Password Manager is a Python-based application that allows users to store, encrypt, and retrieve passwords securely. It supports AES-GCM encryption, bcrypt authentication, and two-factor authentication (2FA) with OTP. Users can interact with the application via both a command-line interface (CLI) and a graphical user interface (GUI) using Tkinter.
+Secure Password Manager is a Python-based application that allows users to **store, encrypt, and retrieve passwords securely**. It supports **AES-GCM encryption** and **bcrypt authentication**. Users can interact with the application via both a **command-line interface (CLI)** and a **graphical user interface (GUI) using Tkinter**.
 
-# Features
+---
 
-1. User Authentication
+## Features
 
-Supports multiple users with individual encryption keys.
+### 1. User Authentication
+- Uses **bcrypt password hashing** for secure authentication.
 
-2. Password Management
+### 2. Password Management
+- Store and **encrypt passwords** using **AES-GCM encryption**.
+- Retrieve and **decrypt stored passwords securely**.
 
-Store and encrypt passwords using AES-GCM.
-Retrieve and decrypt stored passwords.
+### 3. Graphical and CLI Support
+- **Intuitive GUI** built with **Tkinter**.
+- **Command-line interface (CLI)** for terminal users.
 
-3. Graphical and CLI Support
+### 4. Database Integration
+- Uses **MariaDB/MySQL** for storing user credentials and encrypted passwords.
+- Secure storage with **password salting**.
 
-Intuitive GUI built with Tkinter.
-Command-line interface for users preferring terminal interaction.
+---
 
-4. Database Integration
-
-Uses MariaDB for storing user credentials and encrypted passwords.
-Secure storage with password salting.
-
-
-# Installation
+## Installation
 
 1. Clone the Repository
 
